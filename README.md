@@ -74,7 +74,7 @@
     <td>10</td>
     <td>En tant que <b>développeur</b>, je souhaite choisir une tâche dans un sprint.</td> 
     <td>4</td>
-    <td>3q</td>
+    <td>3</td>
   </tr>
   
 </table>
