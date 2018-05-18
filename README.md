@@ -15,4 +15,4 @@ US- Le développeur peut ajouter l'état d'avancement dans une t�che, Prio 1 <
 US- Le développeur peut choisir une tâche, Prio 4  </br>  
 
 US ==> User Story </br>
-Prio ==> Priorit� 
+Prio ==> Priorité 
