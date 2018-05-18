@@ -1,19 +1,18 @@
 # G-IT-Team_Project
 
-Backlog : 
+#Backlog : 
+US-un utilisateur peut sï¿½authentifier, Prio 1 </br>
+US-Le Product Owner doit crï¿½er un projet, Prio 1 </br>
+US-Le Product Owner doit  ajouter un backlog, Prio 2 </br>
+US-Le Product Owner doit ajouter une tï¿½che, Prio 1 </br>
+US-Les membres du projet peuvent le consulter, Prio 1 </br>
+US- Le Product Owner peut ajouter une ï¿½quipe, Prio 2 </br>
+US- Le Scrum Master lance un sprint, Prio 1 </br>
+US- Le Scrum Master termine un sprint, Prio 1 </br>
+US- Le Scrum Master doit estimer le temps pour chaque sprint, Prio 1 </br>
+US- Le Scrum Master peut ajouter des dï¿½veloppeurs, Prio 3 </br>
+US- Le dï¿½veloppeur peut ajouter lï¿½ï¿½tat dï¿½avancement dans une tï¿½che, Prio 1 </br>
+US- Le dï¿½veloppeur peut choisir une tï¿½che, Prio 4  </br>  
 
-US-un utilisateur peut s’authentifier, Prio 1
-US-Le Product Owner doit créer un projet, Prio 1
-US-Le Product Owner doit  ajouter un backlog, Prio 2
-US-Le Product Owner doit ajouter une tâche, Prio 1
-US-Les membres du projet peuvent le consulter, Prio 1
-US- Le Product Owner peut ajouter une équipe, Prio 2
-US- Le Scrum Master lance un sprint, Prio 1
-US- Le Scrum Master termine un sprint, Prio 1
-US- Le Scrum Master doit estimer le temps pour chaque sprint, Prio 1
-US- Le Scrum Master peut ajouter des développeurs, Prio 3
-US- Le développeur peut ajouter l’état d’avancement dans une tâche, Prio 1
-US- Le développeur peut choisir une tâche, Prio 4   
-
-US ==> User Story
-Prio ==> Priorité 
+US ==> User Story </br>
+Prio ==> Prioritï¿½ 
