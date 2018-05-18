@@ -17,6 +17,21 @@ US- Le développeur peut choisir une tâche, Prio 4  </br>
 US ==> User Story </br>
 Prio ==> Priorité 
 
+<table>
+	<tr>
+		<th>ID</th>
+		<th>US</th>
+		<th>Prio</th>
+		<th>Coût</th>
+	</tr>
+	<tr>
+		<th>ID1</th>
+		<th>US1</th>
+		<th>Prio1</th>
+		<th>Coût1</th>
+	</tr>
+</table>
+
 <h1> Backlog de US1: </h1> </br>
 US_1.1: Creation d'une base de donneés avec table 'user' </br>
 US_1.2: Creation d'une interface avec formulaire </br>
