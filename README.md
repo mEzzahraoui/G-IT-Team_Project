@@ -108,10 +108,8 @@
 
 <h1> Les sprints : </h1> </br>
 <h2> Sprint 1: </h2> </br>
-<ul>
-	<li>Mini Backlog:</li>
-	<div>
-		<table style="width:100%">
+<h3> Mini Backlog:</h3> </br>
+<table style="width:100%">
 		  <tr>
 		    <th>Id</th>
 		    <th>User Story</th> 
@@ -151,17 +149,15 @@
 		    <td>4</td>
 		    <td>5</td>
 		  </tr>
-		</table>
-	</div>
-	<li>Les Taches:</li>
-	<div>
-		<ul>
-			<li>Création du Base de Données</li>
-			<li>Création des interfaces</li>
-			<li>Les methodes de traitement</li>
-		</ul>
-	</div>
-</ul>
+</table>
+<h3> Les Taches:</h3>
+<div>
+	<ul>
+		<li>Création du Base de Données</li>
+		<li>Création des interfaces</li>
+		<li>Les methodes de traitement</li>
+	</ul>
+	
 
 <h2> Sprint 2: </h2> </br>
 
