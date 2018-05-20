@@ -11,14 +11,6 @@
   </tr>
   
   <tr>
-    <td>10</td>
-    <td>En tant que développeur , je souhaite pouvoir ajouter/supprimer une tâche dans un sprint (description, id user story ciblée, la personne en charge,statut,isE2E) ,afin de faire corretement la planification.</td> 
-    <td>3</td>
-    <td>8</td>
-    <td>A faire</td>
-  </tr>
-  
-  <tr>
     <td>11</td>
     <td>En tant que développeur , je souhaite pouvoir obtenir les propriété des sprints chaque sprint contient un ensemble de tâches afin de suivre l'avancement d'un projet.</td> 
     <td>4</td>
