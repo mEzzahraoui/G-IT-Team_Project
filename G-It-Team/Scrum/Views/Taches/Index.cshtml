@@ -1,0 +1,65 @@
+﻿@model IEnumerable<Scrum.Models.Tache>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <p>
+        @Html.ActionLink("Create New", "Create")
+    </p>
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.developpeur.Nom)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.sprint.SprintName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.nomTache)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.statusTache)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.coutTache)
+            </th>
+            <th></th>
+        </tr>
+    
+    @foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.developpeur.Nom)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.sprint.SprintName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.nomTache)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.statusTache)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.coutTache)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id=item.TacheID }) |
+                @Html.ActionLink("Details", "Details", new { id=item.TacheID }) |
+                @Html.ActionLink("Delete", "Delete", new { id=item.TacheID })
+            </td>
+        </tr>
+    }
+    
+    </table>
+</body>
+</html>

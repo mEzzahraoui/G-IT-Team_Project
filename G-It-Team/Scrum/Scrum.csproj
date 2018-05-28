@@ -146,17 +146,32 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\CreateurDeProjetsController.cs" />
+    <Compile Include="Controllers\DeveloppeursController.cs" />
+    <Compile Include="Controllers\EquipesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\LoginController.cs" />
+    <Compile Include="Controllers\ProjetsController.cs" />
+    <Compile Include="Controllers\SprintsController.cs" />
+    <Compile Include="Controllers\TachesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\CreateurDeProjet.cs" />
+    <Compile Include="Models\CreateurDeProjetContext.cs" />
     <Compile Include="Models\Developpeur.cs" />
+    <Compile Include="Models\DeveloppeurContext.cs" />
     <Compile Include="Models\DeveloppeurToEquipe.cs" />
+    <Compile Include="Models\DeveloppeurToEquipeContext.cs" />
+    <Compile Include="Controllers\DeveloppeurToEquipesController.cs" />
     <Compile Include="Models\Equipe.cs" />
+    <Compile Include="Models\EquipeContext.cs" />
     <Compile Include="Models\Projet.cs" />
+    <Compile Include="Models\ProjetContext.cs" />
     <Compile Include="Models\Sprint.cs" />
+    <Compile Include="Models\SprintContext.cs" />
     <Compile Include="Models\Tache.cs" />
+    <Compile Include="Models\TacheContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -1204,6 +1219,8 @@
     <Content Include="Scripts\umd\popper-utils.min.js" />
     <Content Include="Scripts\umd\popper.js" />
     <Content Include="Scripts\umd\popper.min.js" />
+    <Content Include="Views\Login\css\style.css" />
+    <Content Include="Views\Login\js\index.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -1224,6 +1241,43 @@
     <Content Include="Scripts\popper-utils.min.js.map" />
     <Content Include="Scripts\popper-utils.js.map" />
     <Content Include="Views\Shared\_mainView.cshtml" />
+    <Content Include="Views\CreateurDeProjets\Create.cshtml" />
+    <Content Include="Views\CreateurDeProjets\Delete.cshtml" />
+    <Content Include="Views\CreateurDeProjets\Details.cshtml" />
+    <Content Include="Views\CreateurDeProjets\Edit.cshtml" />
+    <Content Include="Views\CreateurDeProjets\Index.cshtml" />
+    <Content Include="Views\Developpeurs\Create.cshtml" />
+    <Content Include="Views\Developpeurs\Delete.cshtml" />
+    <Content Include="Views\Developpeurs\Details.cshtml" />
+    <Content Include="Views\Developpeurs\Edit.cshtml" />
+    <Content Include="Views\Developpeurs\Index.cshtml" />
+    <Content Include="Views\DeveloppeurToEquipes\Create.cshtml" />
+    <Content Include="Views\DeveloppeurToEquipes\Delete.cshtml" />
+    <Content Include="Views\DeveloppeurToEquipes\Details.cshtml" />
+    <Content Include="Views\DeveloppeurToEquipes\Edit.cshtml" />
+    <Content Include="Views\DeveloppeurToEquipes\Index.cshtml" />
+    <Content Include="Views\Equipes\Create.cshtml" />
+    <Content Include="Views\Equipes\Delete.cshtml" />
+    <Content Include="Views\Equipes\Details.cshtml" />
+    <Content Include="Views\Equipes\Edit.cshtml" />
+    <Content Include="Views\Equipes\Index.cshtml" />
+    <Content Include="Views\Projets\Create.cshtml" />
+    <Content Include="Views\Projets\Delete.cshtml" />
+    <Content Include="Views\Projets\Details.cshtml" />
+    <Content Include="Views\Projets\Edit.cshtml" />
+    <Content Include="Views\Projets\Index.cshtml" />
+    <Content Include="Views\Sprints\Create.cshtml" />
+    <Content Include="Views\Sprints\Delete.cshtml" />
+    <Content Include="Views\Sprints\Details.cshtml" />
+    <Content Include="Views\Sprints\Edit.cshtml" />
+    <Content Include="Views\Sprints\Index.cshtml" />
+    <Content Include="Views\Taches\Create.cshtml" />
+    <Content Include="Views\Taches\Delete.cshtml" />
+    <Content Include="Views\Taches\Details.cshtml" />
+    <Content Include="Views\Taches\Edit.cshtml" />
+    <Content Include="Views\Taches\Index.cshtml" />
+    <Content Include="Views\Login\scss\style.scss" />
+    <Content Include="Views\Login\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
