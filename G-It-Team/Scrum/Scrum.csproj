@@ -1225,6 +1225,7 @@
     <Content Include="Scripts\popper-utils.js.map" />
     <Content Include="Views\Shared\_mainView.cshtml" />
     <Content Include="Views\Home\Accueil.cshtml" />
+    <Content Include="Views\Home\Inscription.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

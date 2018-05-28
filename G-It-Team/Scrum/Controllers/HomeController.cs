@@ -25,7 +25,7 @@ namespace Scrum.Controllers
             return View();
         }
 
-        public ActionResult Contact()
+        public ActionResult Inscription()
         {
             ViewBag.Message = "Your contact page.";
 
