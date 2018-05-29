@@ -1,0 +1,51 @@
+﻿@model Scrum.Models.Sprint
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_mainView.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Sprint</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.SprintName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SprintName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Date_debut)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Date_debut)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Date_fin)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Date_fin)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ProjetID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ProjetID)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.SprintID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

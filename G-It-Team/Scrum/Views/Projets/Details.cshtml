@@ -1,0 +1,59 @@
+﻿@model Scrum.Models.Projet
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_mainView.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Projet</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NomProjet)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NomProjet)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DateDebut)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DateDebut)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DateFin)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DateFin)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EquipeID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EquipeID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CreateurDeProjetID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CreateurDeProjetID)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ProjectID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

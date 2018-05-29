@@ -14,9 +14,6 @@ namespace Scrum.Models
             this.projets = new HashSet<Projet>();
         }
 
-        [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int idCreateur { get; set; }
         // [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Projet> projets { get; set; }
 
