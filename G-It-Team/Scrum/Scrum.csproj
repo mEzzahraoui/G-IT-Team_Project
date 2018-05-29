@@ -1233,6 +1233,7 @@
     <Content Include="Scripts\popper-utils.js.map" />
     <Content Include="Views\Shared\_mainView.cshtml" />
     <Content Include="Views\Home\Accueil.cshtml" />
+<<<<<<< HEAD
     <Content Include="Views\CreateurDeProjets\Create.cshtml" />
     <Content Include="Views\CreateurDeProjets\Delete.cshtml" />
     <Content Include="Views\CreateurDeProjets\Details.cshtml" />
@@ -1268,6 +1269,9 @@
     <Content Include="Views\Taches\Details.cshtml" />
     <Content Include="Views\Taches\Edit.cshtml" />
     <Content Include="Views\Taches\Index.cshtml" />
+=======
+    <Content Include="Views\Home\Inscription.cshtml" />
+>>>>>>> c53329fe0370c7642a241d7c31264ca7306cff1b
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
